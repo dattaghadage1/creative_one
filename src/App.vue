@@ -8,7 +8,6 @@
   <main class="main-content position-relative max-height-vh-100 h-100">
     <!-- <navbar v-if="showNavbar" /> -->
     <!-- <router-view /> -->
-    <h1>hello </h1>
     <Notification/>
     <!-- <app-footer v-show="showFooter" /> -->
     <!-- <configurator
