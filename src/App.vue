@@ -8,6 +8,7 @@
   <main class="main-content position-relative max-height-vh-100 h-100">
     <!-- <navbar v-if="showNavbar" /> -->
     <!-- <router-view /> -->
+    <Buttons/>
     <Notification/>
     <!-- <app-footer v-show="showFooter" /> -->
     <!-- <configurator
@@ -20,12 +21,14 @@
 <script>
 import IndexCompo from "./examples/Sidenav/IndexCompo.vue";
 import Notification from "./view/Notifications.vue"
+import Buttons from "./view/Buttons.vue"
 import { mapState } from "vuex";
 export default {
   name: 'App',
   components: {
     IndexCompo,
-    Notification
+    Notification,
+    Buttons
   },
   computed:{
     ...mapState([
