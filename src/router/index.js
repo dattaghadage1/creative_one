@@ -1,11 +1,24 @@
 import { createRouter, createWebHistory } from "vue-router";
-
+import  Buttons  from "../view/Buttons.vue"
+// import  ArgonAlerts  from "../view/Alert.vue"
+import KPIs from "../view/KPIs.vue"
+import  Notifications  from "../view/Notifications.vue"
 const routes = [
   {
-    path: "/",
-    name: "/",
-    redirect: ""
+    name: "VbCheck",
+    path: "/Notifications",
+    component: Notifications
   },
+  {
+    path: "/kpi",
+    name: "/KPIs",
+    component: KPIs
+  },
+  {
+    path:"/buttons",
+    name:"/Buttons",
+    component:Buttons
+  }
 ];
 
 const router = createRouter({

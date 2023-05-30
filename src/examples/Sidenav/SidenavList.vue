@@ -17,22 +17,22 @@
             <ul class="nav ms-4">
               <!-- nav links -->
               <sidenav-item
-                :to="{ name: 'Landing' }"
-                mini-icon="L"
-                text="Landing"
+                :to="{ path: '/Notifications' }"
+                mini-icon="N"
+                text="Notifications"
               />
               <sidenav-item
-                :to="{ name: 'Default' }"
-                mini-icon="D"
-                text="Default"
+                :to="{ path: '/kpi' }"
+                mini-icon="K"
+                text="KPI"
               />
               <sidenav-item
-                :to="{ name: 'Automotive' }"
-                mini-icon="A"
-                text="Automotive"
+                :to="{ path: '/buttons' }"
+                mini-icon="B"
+                text="Buttons"
               />
               <sidenav-item
-                :to="{ name: 'Smart Home' }"
+                :to="{ path: '/Smart Home' }"
                 mini-icon="S"
                 text="Smart Home"
               />
@@ -43,18 +43,18 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'VR Default' }"
+                    :to="{ path: '/VR Default' }"
                     mini-icon="V"
                     text="VR Default"
                   />
                   <sidenav-item
-                    :to="{ name: 'VR Info' }"
+                    :to="{ path: '/VR Info' }"
                     mini-icon="V"
                     text="VR Info"
                   />
                 </template>
               </sidenav-collapse-item>
-              <sidenav-item :to="{ name: 'CRM' }" mini-icon="C" text="CRM" />
+              <sidenav-item :to="{ path: '/CRM' }" mini-icon="C" text="CRM" />
             </ul>
           </template>
         </sidenav-collapse>
@@ -86,17 +86,17 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Profile Overview' }"
+                    :to="{ path: '/Profile Overview' }"
                     mini-icon="P"
                     text="Profile Overview"
                   />
                   <sidenav-item
-                    :to="{ name: 'Teams' }"
+                    :to="{ path: '/Teams' }"
                     mini-icon="T"
                     text="Teams"
                   />
                   <sidenav-item
-                    :to="{ name: 'All Projects' }"
+                    :to="{ path: '/All Projects' }"
                     mini-icon="A"
                     text="All Projects"
                   />
@@ -110,12 +110,12 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Reports' }"
+                    :to="{ path: '/Reports' }"
                     mini-icon="R"
                     text="Reports"
                   />
                   <sidenav-item
-                    :to="{ name: 'New User' }"
+                    :to="{ path: '/New User' }"
                     mini-icon="N"
                     text="New User"
                   />
@@ -129,22 +129,22 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Settings' }"
+                    :to="{ path: '/Settings' }"
                     mini-icon="S"
                     text="Settings"
                   />
                   <sidenav-item
-                    :to="{ name: 'Billing' }"
+                    :to="{ path: '/Billing' }"
                     mini-icon="B"
                     text="Billing"
                   />
                   <sidenav-item
-                    :to="{ name: 'Invoice' }"
+                    :to="{ path: '/Invoice' }"
                     mini-icon="I"
                     text="Invoice"
                   />
                   <sidenav-item
-                    :to="{ name: 'Security' }"
+                    :to="{ path: '/Security' }"
                     mini-icon="S"
                     text="Security"
                   />
@@ -158,17 +158,17 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'General' }"
+                    :to="{ path: '/General' }"
                     mini-icon="G"
                     text="General"
                   />
                   <sidenav-item
-                    :to="{ name: 'Timeline' }"
+                    :to="{ path: '/Timeline' }"
                     mini-icon="T"
                     text="Timeline"
                   />
                   <sidenav-item
-                    :to="{ name: 'New Project' }"
+                    :to="{ path: '/New Project' }"
                     mini-icon="N"
                     text="New Project"
                   />
@@ -176,28 +176,28 @@
               </sidenav-collapse-item>
 
               <sidenav-item
-                :to="{ name: 'Pricing Page' }"
+                :to="{ path: '/Pricing Page' }"
                 mini-icon="P"
                 text="Pricing Page"
               />
-              <sidenav-item :to="{ name: 'RTL' }" mini-icon="R" text="RTL" />
+              <sidenav-item :to="{ path: '/RTL' }" mini-icon="R" text="RTL" />
               <sidenav-item
-                :to="{ name: 'Widgets' }"
+                :to="{ path: '/Widgets' }"
                 mini-icon="W"
                 text="Widgets"
               />
               <sidenav-item
-                :to="{ name: 'Charts' }"
+                :to="{ path: '/Charts' }"
                 mini-icon="C"
                 text="Charts"
               />
               <sidenav-item
-                :to="{ name: 'Sweet Alerts' }"
+                :to="{ path: '/Sweet Alerts' }"
                 mini-icon="S"
                 text="Sweet Alerts"
               />
               <sidenav-item
-                :to="{ name: 'Notifications' }"
+                :to="{ path: '/Notifications' }"
                 mini-icon="N"
                 text="Notifications"
               />
@@ -220,27 +220,27 @@
               <!-- nav links -->
 
               <sidenav-item
-                :to="{ name: 'Kanban' }"
+                :to="{ path: '/Kanban' }"
                 mini-icon="K"
                 text="Kanban"
               />
               <sidenav-item
-                :to="{ name: 'Wizard' }"
+                :to="{ path: '/Wizard' }"
                 mini-icon="W"
                 text="Wizard"
               />
               <sidenav-item
-                :to="{ name: 'Data Tables' }"
+                :to="{ path: '/Data Tables' }"
                 mini-icon="D"
                 text="Data Tables"
               />
               <sidenav-item
-                :to="{ name: 'Calendar' }"
+                :to="{ path: '/Calendar' }"
                 mini-icon="C"
                 text="Calendar"
               />
               <sidenav-item
-                :to="{ name: 'Analytics' }"
+                :to="{ path: '/Analytics' }"
                 mini-icon="A"
                 text="Analytics"
               />
@@ -262,7 +262,7 @@
             <ul class="nav ms-4">
               <!-- nav links -->
               <sidenav-item
-                :to="{ name: 'Overview' }"
+                :to="{ path: '/Overview' }"
                 mini-icon="O"
                 text="Overview"
               />
@@ -274,22 +274,22 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'New Product' }"
+                    :to="{ path: '/New Product' }"
                     mini-icon="N"
                     text="New Product"
                   />
                   <sidenav-item
-                    :to="{ name: 'Edit Product' }"
+                    :to="{ path: '/Edit Product' }"
                     mini-icon="E"
                     text="Edit Product"
                   />
                   <sidenav-item
-                    :to="{ name: 'Product Page' }"
+                    :to="{ path: '/Product Page' }"
                     mini-icon="P"
                     text="Product page"
                   />
                   <sidenav-item
-                    :to="{ name: 'Products List' }"
+                    :to="{ path: '/Products List' }"
                     mini-icon="P"
                     text="Products List"
                   />
@@ -303,19 +303,19 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Order List' }"
+                    :to="{ path: '/Order List' }"
                     mini-icon="O"
                     text="Order List"
                   />
                   <sidenav-item
-                    :to="{ name: 'Order Details' }"
+                    :to="{ path: '/Order Details' }"
                     mini-icon="O"
                     text="Order Details"
                   />
                 </template>
               </sidenav-collapse-item>
               <sidenav-item
-                :to="{ name: 'Referral' }"
+                :to="{ path: '/Referral' }"
                 mini-icon="R"
                 text="Referral"
               />
@@ -343,17 +343,17 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Signin Basic' }"
+                    :to="{ path: '/Signin Basic' }"
                     mini-icon="B"
                     text="Basic"
                   />
                   <sidenav-item
-                    :to="{ name: 'Signin Cover' }"
+                    :to="{ path: '/Signin Cover' }"
                     mini-icon="C"
                     text="Cover"
                   />
                   <sidenav-item
-                    :to="{ name: 'Signin Illustration' }"
+                    :to="{ path: '/Signin Illustration' }"
                     mini-icon="I"
                     text="Illustration"
                   />
@@ -367,17 +367,17 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Signup Basic' }"
+                    :to="{ path: '/Signup Basic' }"
                     mini-icon="B"
                     text="Basic"
                   />
                   <sidenav-item
-                    :to="{ name: 'Signup Cover' }"
+                    :to="{ path: '/Signup Cover' }"
                     mini-icon="C"
                     text="Cover"
                   />
                   <sidenav-item
-                    :to="{ name: 'Signup Illustration' }"
+                    :to="{ path: '/Signup Illustration' }"
                     mini-icon="I"
                     text="Illustration"
                   />
@@ -391,17 +391,17 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Reset Basic' }"
+                    :to="{ path: '/Reset Basic' }"
                     mini-icon="B"
                     text="Basic"
                   />
                   <sidenav-item
-                    :to="{ name: 'Reset Cover' }"
+                    :to="{ path: '/Reset Cover' }"
                     mini-icon="C"
                     text="Cover"
                   />
                   <sidenav-item
-                    :to="{ name: 'Reset Illustration' }"
+                    :to="{ path: '/Reset Illustration' }"
                     mini-icon="I"
                     text="Illustration"
                   />
@@ -415,17 +415,17 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Lock Basic' }"
+                    :to="{ path: '/Lock Basic' }"
                     mini-icon="B"
                     text="Basic"
                   />
                   <sidenav-item
-                    :to="{ name: 'Lock Cover' }"
+                    :to="{ path: '/Lock Cover' }"
                     mini-icon="C"
                     text="Cover"
                   />
                   <sidenav-item
-                    :to="{ name: 'Lock Illustration' }"
+                    :to="{ path: '/Lock Illustration' }"
                     mini-icon="I"
                     text="Illustration"
                   />
@@ -439,17 +439,17 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Verification Basic' }"
+                    :to="{ path: '/Verification Basic' }"
                     mini-icon="B"
                     text="Basic"
                   />
                   <sidenav-item
-                    :to="{ name: 'Verification Cover' }"
+                    :to="{ path: '/Verification Cover' }"
                     mini-icon="C"
                     text="Cover"
                   />
                   <sidenav-item
-                    :to="{ name: 'Verification Illustration' }"
+                    :to="{ path: '/Verification Illustration' }"
                     mini-icon="I"
                     text="Illustration"
                   />
@@ -463,12 +463,12 @@
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ name: 'Error Error404' }"
+                    :to="{ path: '/Error Error404' }"
                     mini-icon="E"
                     text="Error 404"
                   />
                   <sidenav-item
-                    :to="{ name: 'Error Error500' }"
+                    :to="{ path: '/Error Error500' }"
                     mini-icon="E"
                     text="Error 500"
                   />
@@ -855,7 +855,7 @@ import SidenavCard from "./SidenavCard.vue";
 import SidenavCollapseItem from "./SidenavCollapseItem.vue";
 
 export default {
-  name: "SidenavList",
+  path: "/SidenavList",
   components: {
     SidenavItem,
     SidenavCollapse,
@@ -864,7 +864,8 @@ export default {
   },
   methods: {
     getRoute() {
-
+      const routeArr = this.$route.path.split("/");
+      return routeArr[1];
     }
   }
 };

@@ -1,9 +1,11 @@
 <template>
   <li class="nav-item">
+    <!-- {{ console.log(to) }} -->
     <router-link class="nav-link" :to="to">
       <span class="sidenav-mini-icon"> {{ miniIcon }} </span>
       <span class="sidenav-normal"> {{ text }} </span>
     </router-link>
+    
   </li>
 </template>
 <script>

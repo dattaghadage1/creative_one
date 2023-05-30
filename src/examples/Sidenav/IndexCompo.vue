@@ -1,11 +1,11 @@
 <template>
-  <div v-if="layout === 'custom'" class="position-absolute w-100 min-height-300 top-0" :style="{
+  <div v-if="layout === 'custom'" class="position-absolute  w-100 min-height-300 top-0" :style="{
     'background-image': 'url(' + image + ')',
     'background-position-y': '50%'
   }">
     <span class="mask bg-success opacity-6"></span>
   </div>
-  <div v-show="layout === 'default'" class="min-height-300 position-absolute w-100"
+  <div v-show="layout === 'default'" class="min-height-300 bg-gradient-info position-absolute w-100"
     :class="`${darkMode ? 'bg-trasnparent' : ''}`" />
 
   <aside id="sidenav-main" class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 ms-4"
