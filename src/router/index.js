@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import  Buttons  from "../view/Buttons.vue"
-// import  ArgonAlerts  from "../view/Alert.vue"
 import KPIs from "../view/KPIs.vue"
 import  Notifications  from "../view/Notifications.vue"
 import SweetAlert from "../view/SweetAlert.vue"
+import Widgets from "../view/Widgets.vue"
 const routes = [
   {
     name: "VbCheck",
@@ -24,6 +24,11 @@ const routes = [
     path:"/sweet_alert",
     name:"/SweetAlert",
     component:SweetAlert
+  },
+  {
+    path:"/widgets",
+    name:"Widgets",
+    component:Widgets
   }
 ];
 

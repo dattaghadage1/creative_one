@@ -37,15 +37,15 @@
                 text="Sweet Alert"
               />
               <sidenav-collapse-item
-                refer="vrExamples"
-                mini-icon="V"
-                text="Virtual Reality"
+                refer="Component"
+                mini-icon="S"
+                text="Small Components"
               >
                 <template #nav-child-item>
                   <sidenav-item
-                    :to="{ path: '/VR Default' }"
-                    mini-icon="V"
-                    text="VR Default"
+                    :to="{ path: '/widgets' }"
+                    mini-icon="W"
+                    text="Widgets"
                   />
                   <sidenav-item
                     :to="{ path: '/VR Info' }"
