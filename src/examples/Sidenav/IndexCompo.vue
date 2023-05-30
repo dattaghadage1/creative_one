@@ -19,8 +19,8 @@
         <img :src="layout === 'landing' || darkMode || sidebarType === 'bg-default'
             ? logoWhite
             : logo
-          " class="navbar-brand-img h-100" alt="main_logo" />
-        <span class="ms-2 font-weight-bold">Argon Dashboard 2 PRO</span>
+          " class="navbar-brand-img= h-100" alt="main_logo" />
+        <span class="ms-2 font-weight-bold">Argon Dashboard </span>
       </router-link>
     </div>
     <hr class="mt-0 horizontal dark" />

@@ -32,9 +32,9 @@
                 text="Buttons"
               />
               <sidenav-item
-                :to="{ path: '/Smart Home' }"
+                :to="{ path: '/sweet_alert' }"
                 mini-icon="S"
-                text="Smart Home"
+                text="Sweet Alert"
               />
               <sidenav-collapse-item
                 refer="vrExamples"
