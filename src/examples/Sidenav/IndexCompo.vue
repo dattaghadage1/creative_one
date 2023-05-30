@@ -5,7 +5,7 @@
   }">
     <span class="mask bg-success opacity-6"></span>
   </div>
-  <div v-show="layout === 'default'" class="min-height-300 bg-gradient-info position-absolute w-100"
+  <div v-show="layout === 'default'" class="min-height-300 bg-gradient-success position-absolute w-100"
     :class="`${darkMode ? 'bg-trasnparent' : ''}`" />
 
   <aside id="sidenav-main" class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 ms-4"
